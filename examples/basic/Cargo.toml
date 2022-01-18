@@ -1,0 +1,13 @@
+[package]
+name = "async-graphql-relay-example"
+version = "0.1.0"
+authors = ["Hugo Saracino <hugo.saracino@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+async-graphql = "3.0.19"
+actix-web = "4.0.0-beta.18"
+async-graphql-actix-web = "3.0.19"
+async-graphql-relay = { path = "../../core/lib" }
+async-trait = "0.1.52"
+uuid = "0.8.2"
