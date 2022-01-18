@@ -1,0 +1,25 @@
+[package]
+name = "async-graphql-relay"
+description = "Relay support for async-graphql"
+version = "0.1.0"
+authors = ["Hugo Saracino <hugo.saracino@gmail.com>"]
+edition = "2021"
+license = "MIT"
+
+homepage = "https://github.com/Punie/async-graphql-relay"
+documentation = "https://docs.rs/async-graphql-relay"
+repository = "https://github.com/Punie/async-graphql-relay"
+readme = "../../README.md"
+
+keywords = ["async", "graphql", "relay"]
+categories = ["asynchronous", "network-programming"]
+
+[dependencies]
+async-graphql = "3.0.21"
+async-graphql-relay-derive = { path = "../codegen", version = "0.1" }
+async-trait = "0.1.52"
+base64 = "0.13.0"
+uuid = "0.8.2"
+
+# [dev-dependencies]
+# tokio = { version = "1.15.0", features = ["full"] }
